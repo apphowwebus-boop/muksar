@@ -1,0 +1,6 @@
+{
+  "name": "MUKSAR SPORTS",
+  "description": "Direct manufacturer and global supplier of performance sportswear, tracksuits, compression gear, and athletic streetwear.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
