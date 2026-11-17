@@ -10,6 +10,7 @@ import { CustomProcessAndReviews } from './components/CustomProcessAndReviews';
 import { ProductModal } from './components/ProductModal';
 import { CartDrawer, CartItem } from './components/CartDrawer';
 import { Footer } from './components/Footer';
+import { PrivacyShield } from './components/PrivacyShield';
 
 export default function App() {
   const [selectedAudience, setSelectedAudience] = useState<Audience>('All');
@@ -156,6 +157,8 @@ export default function App() {
           onRemoveItem={handleRemoveItem}
           onClearCart={() => setCartItems([])}
         />
+
+        <PrivacyShield />
       </div>
     </MotionConfig>
   );
